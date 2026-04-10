@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mridul Jain Portfolio</title>
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #020617;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; /* square with slight rounded corners */
+    border: 3px solid #38bdf8;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+/* Section */
+.section {
+    padding: 40px;
+}
+
+/* Cards */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+.skill i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Mridul Jain</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <img src="C:\Users\Mridul Jain\OneDrive\Desktop\Portfolio\WhatsApp Image 2026-04-10 at 2.40.00 PM.jpeg" alt="Mridul">
+    <h1>Hi, I'm Mridul 👋</h1>
+    <p>BTech Student | AI/ML Enthusiast | Web Developer</p>
+</div>
+
+<!-- ABOUT -->
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student at VIT Bhopal with a strong interest in AI/ML and software development. 
+        I enjoy building real-world projects like Resume Analyzer and Product Authentication Systems. 
+        My goal is to become a skilled software engineer and pursue advanced studies abroad.
+    </p>
+</div>
+
+<!-- SKILLS -->
+<div class="section" id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div class="skill"><i class="fab fa-python"></i><p>Python</p></div>
+        <div class="skill"><i class="fab fa-html5"></i><p>HTML</p></div>
+        <div class="skill"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+        <div class="skill"><i class="fab fa-js"></i><p>JavaScript</p></div>
+        <div class="skill"><i class="fas fa-database"></i><p>MySQL</p></div>
+        <div class="skill"><i class="fas fa-brain"></i><p>Machine Learning</p></div>
+        <div class="skill"><i class="fas fa-code"></i><p>Flask</p></div>
+        <div class="skill"><i class="fab fa-git-alt"></i><p>Git</p></div>
+    </div>
+</div>
+
+<!-- PROJECTS -->
+<div class="section" id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Resume Analyzer</h3>
+        <p>Analyzes resumes and provides match score and skill gap analysis.</p>
+        <a class="btn" href="https://resume-analyzer-wc0h.onrender.com" target="_blank">Live Demo</a>
+    </div>
+
+    <div class="card">
+        <h3>Product Authentication System</h3>
+        <p>QR-based system to detect counterfeit products in real time.</p>
+        <a class="btn" href="https://product-auth-system.onrender.com" target="_blank">Live Demo</a>
+    </div>
+
+</div>
+
+</body>
+</html>
